@@ -20,5 +20,5 @@ const carro = { preco: 49990, desc: 0.20 }
 console.log(getPreco.call(carro))
 console.log(getPreco.apply(carro))
 
-console.log(getPreco.call(carro, 0.17, '$'))
+console.log(getPreco.call(carro, 0.17, '$')) // A  forma de chamar os paran´metro é oqe muda entre call e apply
 console.log(getPreco.apply(global, [0.17, '$']))
